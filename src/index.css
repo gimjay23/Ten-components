@@ -33,18 +33,17 @@ body {
   height: auto;
 }
 
-.col-6,
-.col-7,
-.col-8,
-.col-9 {
-  border:10px solid white;
+.com6,
+.com7,
+.com8,
+.com9 {
+  box-shadow: 4px 2px #000000;
 }
-
 
 .col-6-img,
 .col-7-img,
 .col-8-img,
 .col-9-img {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }

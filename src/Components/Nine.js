@@ -3,8 +3,8 @@ import {Card, Button} from 'react-bootstrap';
 import kenya from "./kenya.jpg";
 
 const myText = (
-  <div className="col-9">
-    <Card style={{ width: "18rem" }}>
+  <div className="com9">
+    <Card>
       <Card.Img className="col-9-img" variant="top" src={kenya} />
       <Card.Body>
         <Card.Title>Component 9</Card.Title>
