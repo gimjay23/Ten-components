@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(#fff, #4ac9fc);
+  font-family: candara;
+  margin: 5px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.left-content,
+.right-content,
+.main-content {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 4px;
+}
+
+.main-content {
+  width: 50%;
+  padding: 10px;
+}
+
+.l-img,
+.r-img {
+  width: 100%;
+  height: 300px;
+}
+
+.d-block {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
+  border:10px solid white;
+}
+
+
+.col-6-img,
+.col-7-img,
+.col-8-img,
+.col-9-img {
+    width: 100%;
+    height: 300px;
+}
