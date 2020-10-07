@@ -8,6 +8,8 @@ import Seven from "./Components/Seven";
 import Eight from "./Components/Eight";
 import Nine from "./Components/Nine";
 import Footer from "./Components/Footer";
+//React Router
+//import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -26,12 +28,11 @@ function App() {
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#products">Products</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Contact</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Innovation</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Brands</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Innovation</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Brands</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Contact</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Career Opportunities</NavDropdown.Item>
             </NavDropdown>

@@ -38,6 +38,9 @@ body {
 .com8,
 .com9 {
   box-shadow: 4px 2px #000000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 .col-6-img,
